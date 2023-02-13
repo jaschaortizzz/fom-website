@@ -1,17 +1,18 @@
 {
-  "name": "collabera_react_training",
+  "name": "weather-app",
   "version": "0.0.1",
-  "description": "Collabera React.JS Training",
+  "description": "Weather App",
   "main": "index.js",
-  "repository": "https://github.com/the-special-character/collabera_react_training.git",
-  "author": "Yagnesh Modh <yagnesh.modh@gmail.com>",
+  "repository": "https://github.com/jaschaortizzz/weather-app.git",
+  "author": "Jascha Ortiz",
   "license": "MIT",
   "scripts": {
     "build": "webpack",
     "start": "webpack serve",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "server": "json-server --watch db.json"
   },
   "keywords": [
     "Javascript",
@@ -34,6 +35,7 @@
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
     "html-webpack-plugin": "^5.5.0",
+    "json-server": "^0.17.1",
     "postcss": "^8.4.21",
     "postcss-easings": "^3.0.1",
     "postcss-import": "^15.1.0",

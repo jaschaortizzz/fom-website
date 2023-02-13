@@ -1,7 +1,9 @@
 import React from 'react';
+// import Todo from "./Todo";
+import WeatherApp from "./WeatherApp";
 
 function App() {
-  return <h1>Welcome To React</h1>;
+  return <WeatherApp />;
 }
 
 export default App;
