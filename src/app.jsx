@@ -1,9 +1,16 @@
-import React from 'react';
-// import Todo from "./Todo";
-import WeatherApp from "./WeatherApp";
+import React from 'react'
+import { RouterProvider } from 'react-router-dom'
+import ErrorBoundary from './ErrorBoundary'
+import router from './router'
 
 function App() {
-  return <WeatherApp />;
+  return (
+    <ErrorBoundary>
+        <RouterProvider
+          router={router}
+        />
+    </ErrorBoundary>
+  );
 }
 
 export default App;

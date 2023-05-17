@@ -1,9 +1,9 @@
 {
-  "name": "weather-app",
+  "name": "focus-on-media-website",
   "version": "0.0.1",
-  "description": "Weather App",
+  "description": "Focus On Media Website",
   "main": "index.js",
-  "repository": "https://github.com/jaschaortizzz/weather-app.git",
+  "repository": "https://github.com/jaschaortizzz/focus-on-media-website.git",
   "author": "Jascha Ortiz",
   "license": "MIT",
   "scripts": {
@@ -56,6 +56,7 @@
     "clsx": "^1.2.1",
     "react": "^18.2.0",
     "react-addons-shallow-compare": "^15.6.3",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.1"
   }
 }
