@@ -2,6 +2,8 @@ import React from 'react'
 import HeroSection from '../components/HeroSection'
 import Services from '../components/Services'
 import Plans from '../components/Plans'
+import About from '../components/About'
+import Footer from '../components/Footer'
 
 function Home() {
 
@@ -10,6 +12,8 @@ function Home() {
         <HeroSection/>
         <Services/>
         <Plans/>
+        <About/>
+        <Footer/>
     </>
  
   )
